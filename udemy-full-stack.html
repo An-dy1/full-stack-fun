@@ -7,7 +7,161 @@
 
 <body>
 
-	<table border="1">
+<h3>Register here</h3>
+
+<form>
+	
+	<div>
+		<label>First name:
+			<input type="text" name="firstName" required>
+		</label>
+
+
+		<label>Last name:
+			<input type="text" name="lastName" required>
+		</label>
+	</div>
+
+	<div>
+		<label for="male">Male
+			<input type="radio" id="male" value="female" name="gender">
+		</label>
+
+
+		<label for="female">Female
+			<input type="radio" id="female" value="female" name="gender">
+		</label>
+
+		<label for="other">Other
+			<input type="radio" id="other" value="other" name="gender">
+		</label>
+	</div>
+
+	<div>
+		<label>Email:
+			<input type="email" name="email" placeholder="your email here" required>
+		</label>
+
+		<label>Password:
+			<input type="password" name="password" minlength="5" maxlength="10" placeholder="password">
+		</label>
+	</div>
+
+	<div>
+		<label for="birthday">Birthday:
+			<select name="birthday">
+				<option value="month">Month</option>
+				<option value="jan">January</option>
+				<option value="feb">February</option>
+				<option value="march">March</option>
+				<option value="april">April</option>
+				<option value="may">May</option>
+				<option value="june">June</option>
+				<option value="july">July</option>
+				<option value="aug">August</option>
+				<option value="sep">September</option>
+				<option value="oct">October</option>
+				<option value="nov">November</option>
+				<option value="dec">December</option>
+			</select>
+			<select name="day">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+			</select>
+			<select>
+				<option>1990</option>
+				<option>1991</option>
+				<option>1992</option>
+				<option>1993</option>
+				<option>1994</option>
+				<option>1995</option>
+				<option>1996</option>
+				<option>1997</option>
+				<option>1998</option>
+				<option>1999</option>
+			</select>
+		</label>
+	</div>
+
+	<div>
+		<label>I agree to the terms and conditions.
+			<input type="checkbox" name="agree">
+		</label>
+	</div>
+
+	<button>Submit</button>
+</form>
+
+	<!-- <p>Where do you want to go?</p>
+	<form>
+		<select name="destination">
+			<option value="caribbean">Cozumel</option>
+			<option value="rainy">Seattle</option>
+			<option value="desert">Moab</option>
+			<option value="beach">Daytona Beach</option>
+		</select>
+
+		<textarea name="tellMe" rows="10" columns="50"></textarea>
+		<button>Take me</button>
+	</form> -->
+
+	<!-- `name` attribute is used when sending data in a form submission; `id` is used to refer to HTML elements when writing CSS and JS -->
+
+<!-- 	<p>Do you prefer muffins, scones, bagels or croissants?</p>
+	  	<form>
+			<label for="muffins">Muffins
+				<input type="radio" id="muffins" value="muffins" name="breakfast"> --> <!-- Used if the user gets one choice -->
+			<!-- </label>
+
+			<label for="scones">Scones
+				<input type="radio" id="scones" value="scones" name="breakfast">
+			</label>
+
+			<label for="bagels">Bagels
+				<input type="radio" id="bagels" value="bagels" name="breakfast">
+			</label>
+
+			<label for="croissants">Croissants
+				<input type="radio" id="croissants" value="croissants" name="breakfast">
+			</label>
+
+			<button>Breakfast me</button>
+		</form>
+
+
+	<h2>Here is my login form:</h2>
+
+	<form>
+		<input type="checkbox" name="breakfast">
+
+		<label>Choose a username: 
+			<input type="text" name="username" placeholder="Your name">
+		</label>
+
+		<label>Enter your email: 
+			<input type="email" name="email" placeholder="Your email">
+		</label>
+
+		<label for="password">Password: </label>
+		<input type="password" id="password" name="password" placeholder="password">
+
+		<label for="color">Choose a color: </label>
+		<input type="color" id="color" name="theme">
+
+		<button>Submit</button>
+	</form>
+ -->
+
+<!---------------------------------- Table Practice ------------------------------------>
+	<!-- <table border="1">
 		<thead>
 			<tr>
 				<th>Image</th>
@@ -30,11 +184,11 @@
 				<td><a href="http://pokemon.wikia.com/wiki/Charmeleon">Charmeleon</a></td>
 			</tr>
 		</tbody>
-	</table>
+	</table> -->
 
 
 
-
+<!---------------------------------- Basic HTML and list practice ------------------------------------>
 	<!-- <h1>Things I've learned</h1>
 
 	<a href="http://www.npr.org" target="">
