@@ -1,0 +1,41 @@
+/*CSS Selector practice*/
+
+/*Element*/
+p {
+	color: #fff;
+}
+
+/*Class*/
+.happy {
+	background-color: #fff;
+} 
+
+/*ID*/
+#header {
+	font-size: 24rem;
+}
+
+/*Star - applies to every element in the document */
+* {
+	margin: 10rem;
+}
+
+/*Descendant Selector - select elements that are descendants of another*/
+li a:visited {
+	color: blue;
+}
+
+/*Adjacent Selector - select elements that are siblings of another (not nested inside)*/
+h2 + p {
+	/*this selects paragraphs that appear on the same level as h2s*/
+}
+
+/*Attribute Selector*/
+input[type="checkbox"] {
+	/*selects all input elements with an attribute type of checkbox*/
+}
+
+/*nth of Type*/
+p:nth-of-type)(6){
+	/*this will select every sixth paragraph in a given group*/
+}
